@@ -15,6 +15,7 @@ import PopulationGrowth from "./data/population-growth.json";
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
+  console.log('test')
   return (
     <Typography
       component="div"
